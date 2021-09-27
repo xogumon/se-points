@@ -48,6 +48,4 @@ app.get("/loyalty/:channel/:username/:amount", (req, res, next) => {
         res.status(500).send("Booooooooom!")
     })
 })
-app.listen(3000, () => {
-    console.log("Conectado a porta 3000")
-})
+app.listen(process.env.PORT || 8080)

@@ -2,10 +2,13 @@
   "name": "se-points",
   "version": "1.0.1",
   "description": "streamelements user points api",
-  "main": "main.js",
+  "private": true,
+  "engines": {
+    "node": ">=14.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node main.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
