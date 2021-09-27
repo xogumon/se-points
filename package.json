@@ -1,0 +1,30 @@
+{
+  "name": "se-points",
+  "version": "1.0.0",
+  "description": "streamelements user points api",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RXogum/se-points.git"
+  },
+  "keywords": [
+    "streamelements",
+    "api",
+    "loyalty",
+    "points"
+  ],
+  "author": "Ronis Xogum",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RXogum/se-points/issues"
+  },
+  "homepage": "https://github.com/RXogum/se-points#readme",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
